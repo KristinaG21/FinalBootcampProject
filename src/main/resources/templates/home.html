@@ -6,8 +6,17 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
 </head>
+<style>
+    .center{
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+
+    }
+</style>
 <body>
-<header th:insert="blocks/header :: header"></headerth:insert></header>
+<header th:insert="blocks/header :: header"></header>
 <style>
     body {
         background-image: url("https://wallpapercave.com/wp/wp2168931.jpg");
@@ -18,10 +27,10 @@
 
 </body>
 <section class="text-center">
-        <div class="container ">
+        <div class="container">
             <h1>Choose your tourism</h1>
             <a href="/citytourism" class="btn btn-primary my-2">City tourism</a>
-            <a href="#" class="btn btn-secondary my-2">Country tourism</a>
+            <a href="/countrytourism" class="btn btn-secondary my-2">Country tourism</a>
             </p>
         </div>
 
