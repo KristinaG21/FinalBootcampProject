@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+<body>
+<header th:insert="blocks/header :: header"></headerth:insert></header>
+<style>
+    body {
+        background-image: url("https://www.consuladodeletonia.com.py/assets/imagenes/secciones/nature.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+</style>
+
+</body>
+<section class="text-center">
+        <div class="container ">
+            <h1>Choose your tourism</h1>
+            <a href="/citytourism" class="btn btn-primary my-2">City tourism</a>
+            <a href="#" class="btn btn-secondary my-2">Country tourism</a>
+            </p>
+        </div>
+
+</section>
+
+</body>
+
+</html>
